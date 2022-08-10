@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="style-seat.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <title>Pilih Kursi</title>
+  </head>
+  <body>
+    <div class="movie-container">
+      <label> Pilih FIlm:</label>
+      <select id="movie">
+        <option value="35000">Top Gun: Maverick</option>
+        <option value="35000">Memory</option>
+        <option value="35000">KKN di Desa Penari</option>
+        <option value="35000">Ngeri-ngeri Sedap</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Tersedia</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Dipilih</small>
+      </li>
+      <li>
+        <div class="seat sold"></div>
+        <small>Tidak Tersedia</small>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      Anda telah memilih <span id="count">0</span> kursi seharga Rp <span id="total"> 0 </span>
+    </p>
+
+    <button type="button" class="btn btn-primary">Pesan Tiket</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
